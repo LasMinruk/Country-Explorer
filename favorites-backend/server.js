@@ -7,7 +7,7 @@ require("dotenv").config();
 const app = express();
 
 const allowedOrigins = [
-
+  'https://vercel.com/lasirus-projects/country-explorer',
   'http://localhost:5173',  
   
 ];

@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // Base API URL for favorites
-const API = "http://localhost:5000/api/favorites";
+const API = "https://country-explorer-backend-ten.vercel.app/api/favorites";
 
 // Get all favorites for a user
 export const getFavorites = async (email) => {
